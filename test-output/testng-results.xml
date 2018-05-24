@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="84520" started-at="2018-05-24T01:01:16Z" finished-at="2018-05-24T01:02:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="84520" started-at="2018-05-24T01:01:16Z" finished-at="2018-05-24T01:02:41Z">
+      <class name="com.fiberhome_yunchuang.www.bianjie.UI.autotest.logic.TestAddUser">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.fiberhome_yunchuang.www.bianjie.UI.autotest.logic.TestAddUser@68e965f5]" name="beforeClass" is-config="true" duration-ms="24" started-at="2018-05-24T09:01:16Z" finished-at="2018-05-24T09:01:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:com.fiberhome_yunchuang.www.bianjie.UI.autotest.logic.TestAddUser@68e965f5]" name="testLogin" duration-ms="15199" started-at="2018-05-24T09:01:16Z" finished-at="2018-05-24T09:01:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="addUser()[pri:2, instance:com.fiberhome_yunchuang.www.bianjie.UI.autotest.logic.TestAddUser@68e965f5]" name="addUser" duration-ms="39960" started-at="2018-05-24T09:01:32Z" depends-on-methods="com.fiberhome_yunchuang.www.bianjie.UI.autotest.logic.TestAddUser.testLogin" finished-at="2018-05-24T09:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method status="PASS" signature="modifyUser()[pri:3, instance:com.fiberhome_yunchuang.www.bianjie.UI.autotest.logic.TestAddUser@68e965f5]" name="modifyUser" duration-ms="20787" started-at="2018-05-24T09:02:12Z" depends-on-methods="com.fiberhome_yunchuang.www.bianjie.UI.autotest.logic.TestAddUser.addUser" finished-at="2018-05-24T09:02:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUser -->
+        <test-method status="PASS" signature="inquireUser()[pri:4, instance:com.fiberhome_yunchuang.www.bianjie.UI.autotest.logic.TestAddUser@68e965f5]" name="inquireUser" duration-ms="8403" started-at="2018-05-24T09:02:32Z" depends-on-methods="com.fiberhome_yunchuang.www.bianjie.UI.autotest.logic.TestAddUser.modifyUser" finished-at="2018-05-24T09:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inquireUser -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.fiberhome_yunchuang.www.bianjie.UI.autotest.logic.TestAddUser@68e965f5]" name="afterClass" is-config="true" duration-ms="141" started-at="2018-05-24T09:02:41Z" finished-at="2018-05-24T09:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.fiberhome_yunchuang.www.bianjie.UI.autotest.logic.TestAddUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
